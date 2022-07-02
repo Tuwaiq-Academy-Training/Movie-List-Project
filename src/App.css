@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: 
+    /* top, transparent red */ linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(59, 59, 59, 0.45)
+    ),
+    /* your image */
+      url("https://th.bing.com/th/id/R.d2edb29f3f970c36aadecbb01ed0bb79?rik=R3kpjN8UZI%2fsww&pid=ImgRaw&r=0");
+}
+
+.card {
+  height: 560px;
+}
+
+
+.Card-img {
+  height: 285px;
+}
+
+.link {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.link:hover {
+  color: black;
+}
+
+.Footer {
+  text-align: right;
+  background-color: black;
+  direction: rtl;
+  color: #757575;
+}
+
+ul li {
+  list-style: none;
+}
+
+.our-story-card-title {
+  font-size: 60px;
+}
+
+.our-story-card-animation {
+  position: relative;
+  top: -383px;
+  right: 84px;
+}
+
+.our-story-card-img {
+  position: relative;
+  z-index: 1;
+}
+
+.our-story-card-animation-container {
+  height: 514px;
+}
+
+.our-story-card-text {
+  padding-top: 90px;
+  color: white;
+}
+
+.our-story-card-subtitle {
+  margin-top: 60px;
+}
+
+.our-story-card-subtitle,
+.our-story-card-text {
+  font-size: 1.625rem;
+  font-weight: 400;
+}
